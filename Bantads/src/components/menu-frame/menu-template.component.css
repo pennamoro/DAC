@@ -29,18 +29,25 @@ h2 {
   position: relative;
   z-index: 1;
   margin-top: 10px;
-  font-family: Arial black ;
+  font-family:'Font-Logo';
+  font-size: 30px;
 }
 
 table {
   width: 100%;
   table-layout: fixed;
   margin-top: 50px;
+  
 }
 
 td {
-  text-align: center;
   padding: 10px;
-  width: 100px;
-  height: 100px;  
+  text-align: center;
 }
+
+td:hover {
+  background-color: #07070734;
+  border-radius: 10px;
+}
+
+
