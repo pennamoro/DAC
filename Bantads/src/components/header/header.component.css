@@ -1,0 +1,10 @@
+.navbar{
+    padding: 15px;
+    background-color: #7AC0CF;
+    display: flex;
+}
+
+.brand{
+    font-family: 'Font-Logo';
+    color: white;
+}
