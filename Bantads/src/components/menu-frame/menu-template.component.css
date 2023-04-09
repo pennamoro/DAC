@@ -29,6 +29,7 @@ h2 {
   position: relative;
   z-index: 1;
   margin-top: 10px;
+  font-family: Arial black ;
 }
 
 table {
@@ -40,4 +41,6 @@ table {
 td {
   text-align: center;
   padding: 10px;
+  width: 100px;
+  height: 100px;  
 }
