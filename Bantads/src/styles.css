@@ -6,5 +6,5 @@ body{
 
 @font-face {
     font-family: 'Font-Logo';
-    src: url('../assets/Ubuntu-Regular.ttf');
+    src: url('./assets/Ubuntu-Regular.ttf');
   }
