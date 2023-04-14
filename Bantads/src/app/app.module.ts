@@ -21,6 +21,14 @@ import { SaqueClienteComponent } from 'src/Containers/Cliente/saque-cliente/saqu
 import { TransferenciaClienteComponent } from 'src/Containers/Cliente/transferencia-cliente/transferencia-cliente.component';
 import { ConfiguracoesClienteComponent } from 'src/Containers/Cliente/configuracoes-cliente/configuracoes-cliente.component';
 
+import { MenuDepositoComponent } from '../components/menu-components/menu-deposito/menu-deposito.component';
+import { MenuSaqueComponent } from '../components/menu-components/menu-saque/menu-saque.component';
+import { MenuTransferirComponent } from '../components/menu-components/menu-transferir/menu-transferir.component';
+import { MenuConfiguracaoComponent } from '../components/menu-components/menu-configuracao/menu-configuracao.component';
+import { MenuGerentesComponent } from '../components/menu-components/menu-gerentes/menu-gerentes.component';
+import { MenuClientesComponent } from '../components/menu-components/menu-clientes/menu-clientes.component';
+import { MenuTopClientesComponent } from '../components/menu-components/menu-top-clientes/menu-top-clientes.component';
+import { MenuHomeComponent } from '../components/menu-components/menu-home/menu-home.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +48,15 @@ import { ConfiguracoesClienteComponent } from 'src/Containers/Cliente/configurac
     ExtratoClienteComponent,
     SaqueClienteComponent,
     TransferenciaClienteComponent,
-    ConfiguracoesClienteComponent
+    ConfiguracoesClienteComponent,
+    MenuDepositoComponent,
+    MenuSaqueComponent,
+    MenuTransferirComponent,
+    MenuConfiguracaoComponent,
+    MenuGerentesComponent,
+    MenuClientesComponent,
+    MenuTopClientesComponent,
+    MenuHomeComponent
   ],
   imports: [
     BrowserModule,
