@@ -20,6 +20,8 @@ import { ExtratoClienteComponent } from 'src/Containers/Cliente/extrato-cliente/
 import { SaqueClienteComponent } from 'src/Containers/Cliente/saque-cliente/saque-cliente.component';
 import { TransferenciaClienteComponent } from 'src/Containers/Cliente/transferencia-cliente/transferencia-cliente.component';
 import { ConfiguracoesClienteComponent } from 'src/Containers/Cliente/configuracoes-cliente/configuracoes-cliente.component';
+import { SaqueComponent } from 'src/components/saque/saque.component';
+import { ExtratoComponent } from 'src/components/extrato/extrato.component';
 
 import { MenuDepositoComponent } from '../components/menu-components/menu-deposito/menu-deposito.component';
 import { MenuSaqueComponent } from '../components/menu-components/menu-saque/menu-saque.component';
@@ -56,7 +58,9 @@ import { MenuHomeComponent } from '../components/menu-components/menu-home/menu-
     MenuGerentesComponent,
     MenuClientesComponent,
     MenuTopClientesComponent,
-    MenuHomeComponent
+    MenuHomeComponent,
+    SaqueComponent,
+    ExtratoComponent
   ],
   imports: [
     BrowserModule,

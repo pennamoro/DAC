@@ -1,0 +1,54 @@
+h1{
+    font-family: 'Font-Logo';
+    margin-bottom: 0;
+    margin-left: 50px;
+    padding-bottom: 0;
+}
+label{
+    font-family: 'Font-Logo';
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.saque-main{
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+    width: 650px;
+    height: 150px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    float: left;
+    position: relative;
+}
+#saque-input{
+    height: 18px;
+    margin-left: 8px;
+    border-color: lightgray; 
+    border-width: 1px;
+    width: 50%;
+}
+#saque-submit{
+    background-color: #7AC0CF;
+    border-radius: 30px;
+    border: 0px;
+    margin: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Menu-Box {
+    background-color: #f3f3f3;
+    font-family: 'Font-Logo';
+    border-radius: 10px;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+    width: 400px;
+    height: 150px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 100px;
+    float: right;
+    position: relative;
+  }
