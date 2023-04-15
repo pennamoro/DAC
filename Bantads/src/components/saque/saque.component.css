@@ -4,6 +4,23 @@ h1{
     margin-left: 50px;
     padding-bottom: 0;
 }
+h2 {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    font-family:'Font-Logo';
+    border-bottom: 1px solid black;
+    margin-bottom: 2px;
+  }
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
 label{
     font-family: 'Font-Logo';
     margin-left: 10px;
@@ -15,7 +32,7 @@ label{
     background-color: #f3f3f3;
     box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
     width: 650px;
-    height: 150px;
+    height: 270px;
     padding: 20px;
     margin-top: 10px;
     margin-left: 50px;
@@ -43,12 +60,12 @@ label{
     background-color: #f3f3f3;
     font-family: 'Font-Logo';
     border-radius: 10px;
-    box-shadow: 0 3px 7px rgba(0,0,0,0.3);
-    width: 400px;
-    height: 150px;
+    box-shadow: 0 0 7px rgba(0,0,0,0.3);
+    width: 380px;
+    height: fit-content;
     padding: 20px;
     margin-top: 10px;
-    margin-right: 100px;
+    margin-right: 150px;
     float: right;
     position: relative;
   }
