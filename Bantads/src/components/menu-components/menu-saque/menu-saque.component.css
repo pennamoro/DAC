@@ -17,8 +17,8 @@ button {
     color: #0c204d; 
     position: absolute;
     top: 40%; 
-    left: 30%; 
-    margin-left: 15%;
+    left: 30%;
+    margin-left: 15%; 
     transform: translate(-50%, -50%); 
   }
   

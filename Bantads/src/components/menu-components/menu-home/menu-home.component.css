@@ -29,6 +29,7 @@ button {
     transform: translate(-50%, -50%); 
     color: #030303; 
     font-size: 18px; 
-    font-weight: bold; 
     margin-left: 16%;
+    font-weight: bold;
+    margin-top: 6px;
   }

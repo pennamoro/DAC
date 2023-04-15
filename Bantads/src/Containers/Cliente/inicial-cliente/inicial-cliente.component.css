@@ -1,0 +1,26 @@
+.container {
+    background-color: #fff;
+    font-family: 'Font-Logo';
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 400px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+    float: left;
+}
+
+.container h2 {
+    border-bottom: 1px solid black;
+}
+
+.limite-disponivel,
+.saldo-disponivel {
+    display: block;
+    padding-bottom: 20px;
+    font-size: large;
+}
+
+.valor {
+    float: right;
+}
