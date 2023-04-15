@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -16,4 +17,10 @@ export class MenuTemplateComponent {
   item7 = null
   item8 = null 
   item9 = null
+
+  constructor(private router: Router) { }
+
+  redirectToPage(page: string) {
+    this.router.navigate([page]);
+  }
 }
