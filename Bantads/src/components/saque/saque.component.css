@@ -61,11 +61,11 @@ label{
     font-family: 'Font-Logo';
     border-radius: 10px;
     box-shadow: 0 0 7px rgba(0,0,0,0.3);
-    width: 380px;
+    width: 400px;
     height: fit-content;
     padding: 20px;
-    margin-top: 10px;
-    margin-right: 150px;
+    margin-top: 20px;
+    margin-right: 100px;
     float: right;
     position: relative;
   }

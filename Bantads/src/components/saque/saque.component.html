@@ -10,14 +10,16 @@
   <h2>Menu</h2>
   <table>
     <tr>
-      <td><menu-extrato/></td>
-      <td><menu-deposito/></td>
-      <td><menu-saque/></td>
+      <td><menu-extrato (click)="redirectToPage('extrato-cliente')"/></td>
+      <td><menu-deposito (click)="redirectToPage('deposito-cliente')"/></td>
+      <td><menu-saque (click)="redirectToPage('saque-cliente')"/></td>
     </tr>
     <tr>
-      <td><menu-transferir/></td>
-      <td><menu-configuracao/></td>
-      <td><menu-home/></td>
+      <td><menu-transferir (click)="redirectToPage('')"/></td>
+      <td><menu-configuracao (click)="redirectToPage('')"/></td>
+      <td><menu-home (click)="redirectToPage('inicial-cliente')"/></td>
     </tr>
   </table>
 </div>
+
+
