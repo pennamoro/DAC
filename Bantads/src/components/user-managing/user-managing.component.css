@@ -1,0 +1,56 @@
+.container {
+  background-color: #fff;
+  font-family: 'Font-Logo';
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  width: 800px;
+  padding: 40px;
+  margin-top: 10px;
+  margin-left: 100px;
+  float: left;
+  height: auto;
+}
+.title{
+  font-family: 'Font-Logo';
+  padding-inline: 20px;
+  padding-top: 40px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+td{
+  border-bottom: none;
+  border-top: none;
+}
+
+button{
+  background-color: lightcoral;
+  color: black;
+  font-weight: bold;
+  font-size: x-small;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+button:hover{
+  filter: brightness(75%);
+}
+tr:not(:first-child):hover {
+  background-color: rgb(218, 230, 234);
+}
+
+
+

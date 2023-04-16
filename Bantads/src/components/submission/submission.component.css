@@ -1,0 +1,85 @@
+.container {
+  background-color: #fff;
+  font-family: 'Font-Logo';
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  width: 800px;
+  padding: 40px;
+  margin-top: 10px;
+  margin-left: 100px;
+  float: left;
+  height: auto;
+}
+.title{
+  font-family: 'Font-Logo';
+  padding-inline: 20px;
+  padding-top: 40px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+td{
+  border-bottom: none;
+  border-top: none;
+}
+
+button.approve-button {
+  background-color: lime;
+  color: black;
+  font-weight: bold;
+  font-size: x-small;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button.reject-button {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  font-size: x-small;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button.approve-button:hover{
+  filter: brightness(75%);
+}
+
+button.reject-button:hover{
+  filter: brightness(75%);
+}
+.approve, .reject{
+  border: none;
+}
+
+td.approve, td.reject{
+  padding: 0px;
+}
+
+tr:not(:last-child) td.approve,
+tr:not(:last-child) td.reject {
+  border-bottom: none;
+}
+
+tr:last-child td:not(.approve):not(.reject) {
+  border-bottom: 1px solid black;
+}
+
+tr:not(:first-child):hover td:not(.approve):not(.reject) {
+  background-color: rgb(218, 230, 234);
+}

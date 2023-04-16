@@ -10,6 +10,8 @@ import { FormComponent } from '../components/user-form/form.component';
 import { MenuTemplateComponent } from '../components/menu-frame/menu-template.component';
 import { MenuExtratoComponent } from '../components/menu-components/menu-extrato/menu-extrato.component';
 import { UserCheckHeaderComponent } from '../components/user-check-header/user-check-header.component';
+import { SubmissionComponent } from '../components/submission/submission.component';
+import { UserManagingComponent } from 'src/components/user-managing/user-managing.component';
 
 import { InicialClienteComponent } from 'src/Containers/Cliente/inicial-cliente/inicial-cliente.component';
 import { InicialAdminComponent } from 'src/Containers/Admin/inicial-admin/inicial-admin.component';
@@ -56,7 +58,9 @@ import { MenuHomeComponent } from '../components/menu-components/menu-home/menu-
     MenuGerentesComponent,
     MenuClientesComponent,
     MenuTopClientesComponent,
-    MenuHomeComponent
+    MenuHomeComponent,
+    SubmissionComponent,
+    UserManagingComponent
   ],
   imports: [
     BrowserModule,
